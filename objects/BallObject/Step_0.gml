@@ -1,10 +1,18 @@
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
-/// @DnDVersion : 1
-/// @DnDHash : 488C90EA
-var l488C90EA_0;l488C90EA_0 = keyboard_check_pressed(vk_space);if (l488C90EA_0){	/// @DnDAction : YoYo Games.Movement.Add_Motion
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
+/// @DnDVersion : 1.1
+/// @DnDHash : 668B148E
+var l668B148E_0;l668B148E_0 = mouse_check_button(mb_left);if (l668B148E_0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
-	/// @DnDHash : 249BC686
-	/// @DnDParent : 488C90EA
-	/// @DnDArgument : "dir" "45"
-	/// @DnDArgument : "speed" "7"
-	motion_add(45, 7);}
+	/// @DnDHash : 0A6B8F6D
+	/// @DnDParent : 668B148E
+	/// @DnDArgument : "x" "mouse_x"
+	/// @DnDArgument : "y" "mouse_y"
+	direction = point_direction(x, y, mouse_x, mouse_y);
+
+	/// @DnDAction : YoYo Games.Movement.Add_Motion
+	/// @DnDVersion : 1
+	/// @DnDHash : 36244C40
+	/// @DnDParent : 668B148E
+	/// @DnDArgument : "dir" "BallObject.direction"
+	/// @DnDArgument : "speed" "4"
+	motion_add(BallObject.direction, 4);}

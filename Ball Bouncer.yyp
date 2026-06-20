@@ -15,20 +15,25 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Blank Pixel Game",
   "resources":[
     {"id":{"name":"BallObject","path":"objects/BallObject/BallObject.yy",},},
+    {"id":{"name":"GoalAreaObject","path":"objects/GoalAreaObject/GoalAreaObject.yy",},},
+    {"id":{"name":"KillWallObject","path":"objects/KillWallObject/KillWallObject.yy",},},
+    {"id":{"name":"SpinKillWallObject","path":"objects/SpinKillWallObject/SpinKillWallObject.yy",},},
     {"id":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"BallSprite","path":"sprites/BallSprite/BallSprite.yy",},},
+    {"id":{"name":"GoalAreaSprite","path":"sprites/GoalAreaSprite/GoalAreaSprite.yy",},},
+    {"id":{"name":"KillWallSprite","path":"sprites/KillWallSprite/KillWallSprite.yy",},},
     {"id":{"name":"WallSprite","path":"sprites/WallSprite/WallSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

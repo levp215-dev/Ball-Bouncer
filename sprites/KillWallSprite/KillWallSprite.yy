@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"BallSprite",
+  "%Name":"KillWallSprite",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,
-  "collisionKind":2,
+  "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"58689743-1009-40ec-a8c6-cf4ee4d12a4f","name":"58689743-1009-40ec-a8c6-cf4ee4d12a4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14fdf092-48eb-4ab0-ab1a-1f102f39eaa4","name":"14fdf092-48eb-4ab0-ab1a-1f102f39eaa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e2ff2acd-0ed2-4917-8562-2725ed903b60","blendMode":0,"displayName":"default","isLocked":false,"name":"e2ff2acd-0ed2-4917-8562-2725ed903b60","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"21349679-5751-4157-8144-ab4c46d2bc2b","blendMode":0,"displayName":"default","isLocked":false,"name":"21349679-5751-4157-8144-ab4c46d2bc2b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"BallSprite",
+  "name":"KillWallSprite",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"BallSprite",
+    "%Name":"KillWallSprite",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"BallSprite",
+    "name":"KillWallSprite",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"58689743-1009-40ec-a8c6-cf4ee4d12a4f","path":"sprites/BallSprite/BallSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3f548c04-0403-4a8d-8057-567111d4dcd5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14fdf092-48eb-4ab0-ab1a-1f102f39eaa4","path":"sprites/KillWallSprite/KillWallSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"94d955bf-b6e2-4d57-9667-a98c3c21723b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
