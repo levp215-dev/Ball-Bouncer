@@ -6,8 +6,8 @@
   "name":"WallObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blank Pixel Game",
-    "path":"Blank Pixel Game.yyp",
+    "name":"Ball Bouncer",
+    "path":"Ball Bouncer.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

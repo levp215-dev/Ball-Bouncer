@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Blank Pixel Game",
-    "path":"Blank Pixel Game.yyp",
+    "name":"Ball Bouncer",
+    "path":"Ball Bouncer.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
