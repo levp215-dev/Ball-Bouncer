@@ -15,11 +15,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Ball Bouncer",
   "resources":[
     {"id":{"name":"BallObject","path":"objects/BallObject/BallObject.yy",},},
+    {"id":{"name":"BulletObject","path":"objects/BulletObject/BulletObject.yy",},},
     {"id":{"name":"GoalAreaObject","path":"objects/GoalAreaObject/GoalAreaObject.yy",},},
     {"id":{"name":"KillWallObject","path":"objects/KillWallObject/KillWallObject.yy",},},
     {"id":{"name":"SpinKillWallObject","path":"objects/SpinKillWallObject/SpinKillWallObject.yy",},},
@@ -29,6 +30,7 @@
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"id":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"id":{"name":"BallSprite","path":"sprites/BallSprite/BallSprite.yy",},},
+    {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},},
     {"id":{"name":"GoalAreaSprite","path":"sprites/GoalAreaSprite/GoalAreaSprite.yy",},},
     {"id":{"name":"KillWallSprite","path":"sprites/KillWallSprite/KillWallSprite.yy",},},
     {"id":{"name":"TurretSprite","path":"sprites/TurretSprite/TurretSprite.yy",},},
@@ -37,9 +39,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
-    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

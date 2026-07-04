@@ -9,10 +9,9 @@ var l668B148E_0;l668B148E_0 = mouse_check_button(mb_left);if (l668B148E_0){	
 	/// @DnDArgument : "y" "mouse_y"
 	direction = point_direction(x, y, mouse_x, mouse_y);
 
-	/// @DnDAction : YoYo Games.Movement.Add_Motion
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
-	/// @DnDHash : 36244C40
+	/// @DnDHash : 1297714C
 	/// @DnDParent : 668B148E
-	/// @DnDArgument : "dir" "BallObject.direction"
-	/// @DnDArgument : "speed" "4"
-	motion_add(BallObject.direction, 4);}
+	/// @DnDArgument : "speed" "5"
+	speed = 5;}
