@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Portal_end",
-  "eventList":[],
+  "%Name":"Portal_opening",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"BallObject","path":"objects/BallObject/BallObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Portal_end",
+  "name":"Portal_opening",
   "overriddenProperties":[],
   "parent":{
     "name":"Ball Bouncer",
