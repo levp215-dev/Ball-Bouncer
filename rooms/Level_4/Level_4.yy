@@ -13,7 +13,7 @@
     {"name":"inst_32D9DB8D1_2","path":"rooms/Level_4/Level_4.yy",},
     {"name":"inst_57C41E33_1_2","path":"rooms/Level_4/Level_4.yy",},
     {"name":"inst_427D8C14","path":"rooms/Level_4/Level_4.yy",},
-    {"name":"inst_53346131","path":"rooms/Level_4/Level_4.yy",},
+    {"name":"inst_489A1512","path":"rooms/Level_4/Level_4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,10 +28,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"propertyId":{"name":"other_x","path":"objects/Portal_opening/Portal_opening.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"832",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"propertyId":{"name":"other_y","path":"objects/Portal_opening/Portal_opening.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"448",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":256.0,},
-        {"$GMRInstance":"v4","%Name":"inst_53346131","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53346131","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"propertyId":{"name":"other_x","path":"objects/Portal_opening/Portal_opening.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.0",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"propertyId":{"name":"other_y","path":"objects/Portal_opening/Portal_opening.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.0",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":448.0,},
+        {"$GMRInstance":"v4","%Name":"inst_489A1512","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_489A1512","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"propertyId":{"name":"other_x","path":"objects/Portal_opening/Portal_opening.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"800",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"propertyId":{"name":"other_y","path":"objects/Portal_opening/Portal_opening.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"500",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":480.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
