@@ -13,6 +13,7 @@
     {"name":"inst_32D9DB8D","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_57C41E33","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_37F1F9A1","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_47231135","path":"rooms/Level1/Level1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,6 +25,7 @@
         {"$GMRInstance":"v4","%Name":"inst_32D9DB8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32D9DB8D","objectId":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-89.913086,"scaleX":12.0,"scaleY":1.0,"x":1376.0015,"y":1.7960101,},
         {"$GMRInstance":"v4","%Name":"inst_57C41E33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57C41E33","objectId":{"name":"GoalAreaObject","path":"objects/GoalAreaObject/GoalAreaObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_37F1F9A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37F1F9A1","objectId":{"name":"SpinKillWallObject","path":"objects/SpinKillWallObject/SpinKillWallObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":6.09375,"x":640.0,"y":256.0,},
+        {"$GMRInstance":"v4","%Name":"inst_47231135","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47231135","objectId":{"name":"KillWallObject","path":"objects/KillWallObject/KillWallObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.5,"x":640.0,"y":592.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

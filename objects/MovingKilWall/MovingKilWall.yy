@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"Portal_opening",
+  "%Name":"MovingKilWall",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Portal_opening","path":"objects/Portal_opening/Portal_opening.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"BallObject","path":"objects/BallObject/BallObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"KillWallObject","path":"objects/KillWallObject/KillWallObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Portal_opening",
+  "name":"MovingKilWall",
   "overriddenProperties":[],
   "parent":{
     "name":"Ball Bouncer",
@@ -26,16 +28,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"other_x","filters":[],"listItems":[],"multiselect":false,"name":"other_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"other_y","filters":[],"listItems":[],"multiselect":false,"name":"other_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Portal",
-    "path":"sprites/Portal/Portal.yy",
+    "name":"KillWallSprite",
+    "path":"sprites/KillWallSprite/KillWallSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
